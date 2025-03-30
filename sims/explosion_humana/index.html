@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      :root {
+	  --escala: 1;
+	  --frameWidth: 225;
+	  --frameHeight: 225;
+      }
+
+      body {
+	  margin: 0;
+	  height: 100vh;
+	  width: 100vw;
+	  position: relative;
+	  font-family: "Jost", sans-serif;
+	  font-optical-sizing: auto;
+	  /* font-weight: <weight>; */
+	  font-style: normal;
+	  background: gray;
+	  color: white;
+      }
+      .humano_container {
+	  width: calc(var(--frameWidth) * var(--escala) * 1px);
+	  height: calc(var(--frameHeight) * var(--escala) * 1px);
+	  position: fixed;
+	  overflow: hidden;
+	  transform: translateX(-50%) translateY(-50%);
+	  z-index: -999;
+      }
+      .humano_spritesheet {
+	  animation: moverSpritesheet 1s steps(4) infinite;
+	  width: calc(900px * var(--escala));
+	  position: relative;
+	  overflow: hidden;
+      }
+
+      .feliz {
+	  top: calc(var(--frameHeight) * var(--escala) * 0px);
+      }
+
+      .serio {
+	  top: calc(var(--frameHeight) * var(--escala) * -1px);
+      }
+
+      .triste {
+	  top: calc(var(--frameHeight) * var(--escala) * -2px);
+      }
+      .crisis {
+	  top: calc(var(--frameHeight) * var(--escala) * -3px);
+      }
+      .explosion {
+	  top: calc(var(--frameHeight) * var(--escala) * -4px);
+      }
+
+      @keyframes moverSpritesheet {
+	  from {
+	      transform: translateX(0px)
+	  }
+	  to {
+	      transform: translateX(calc(-224px * 4 * var(--escala)));
+	  }
+      }
+
+      #inicio {
+	  font-family: inherit;
+	  font-size: 50pt;
+	  font-weight: bold;
+	  position: fixed;
+	  top: 50%;
+	  left: 50%;
+	  border: none;
+	  background: none;
+	  padding: 5px;
+	  transform: translate(-50%, -50%);
+	  text-align: center;
+	  color: white;
+	  z-index: 999999;
+      }
+
+      .borde_texto {
+	  text-shadow: 3px 3px black;
+      }
+      #contador{
+	  font-size: 30pt;
+	  position: fixed;
+	  font-weight:bold;
+	  left: 50%;
+	  top: 10px;
+	  transform: translate(-50%, 0%);
+	  z-index: 999999;
+      }
+
+      #inicio:hover{
+	  font-size: 60pt;
+      }
+
+      .mostrar{
+	  display: block;
+      }
+      .ocultar{
+	  display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <span id="contador" class="borde_texto">0</span>
+    <button type="button" id="inicio" class="mostrar borde_texto">iniciar</div>
+
+    <!-- <div class="humano_container"> -->
+    <!--   <img class="humano_spritesheet feliz" src="./assets/humanos_squash_spritesheet.png" alt="humano"> -->
+    <!-- </div> -->
+    <script>
+
+      let frameHeight = window.getComputedStyle(document.body).getPropertyValue('--frameHeight');
+      let frameWidth = window.getComputedStyle(document.body).getPropertyValue('--frameWidth');
+      let claseEstado = "feliz";      
+      let contadorHumanos = 1;
+      let minTiempo = 150;
+      let tiempo = minTiempo;
+      let explotar = false;
+      let numExplotar = 1;
+      let intervalo;
+      let numCrear = 1;
+
+      let espacioNegativo = 140;
+      let W = Math.round(window.innerWidth / (frameWidth - espacioNegativo)) ;
+      let H = Math.round(window.innerHeight / (frameHeight - espacioNegativo)) ;
+      const maxHumanos = W * H;
+
+
+      function crearArreglo(W, H) {
+	  let arreglo = [];
+	  for(let i = 0; i < W; i ++){
+	      for(let j = 0; j < H; j++){
+		  arreglo.push([(i * window.innerWidth / W) + 35,(j * window.innerHeight / H) - 20]);
+	      }
+	  }
+	  return arreglo;
+      }
+
+      let arreglo = crearArreglo(W, H);
+	  
+      
+      function crearHumano(claseEstado) {
+	  const div = document.createElement("div");
+	  div.classList.add("humano_container");
+	  const img = document.createElement("img");
+	  img.src = "https://i.imgur.com/1a3I8kj.png";
+	  img.classList.add("humano_spritesheet", claseEstado);
+	  div.appendChild(img);
+	  let posIndex = Math.floor(Math.random() * arreglo.length);
+	  let pos = arreglo[posIndex];
+	  arreglo.splice(posIndex, 1);
+	  div.style.left = pos[0] + "px";
+	  // div.style.top = pos[1] + (Math.random() *  frameHeight / 4) + "px";
+	  div.style.top = pos[1] + 50 + "px";
+	  // div.style.left = Math.random() * window.innerWidth + "px";
+	  // div.style.top = Math.random() * window.innerHeight + "px";
+	  document.body.appendChild(div);
+	  div.style.zIndex = Math.round(pos[1]);
+      }
+
+      function logisticoInv(x, R, K, a, b){
+	  return a * x * R * (1 - (x / K)) + b
+      }
+
+      function actualizarEstado(claseEstado) {
+	  if (claseEstado != "explosion") {
+	      let humanos = document.querySelectorAll(".humano_spritesheet");
+	      for (let i = 0; i < humanos.length; i++){
+		  humanos[i].classList.remove("feliz", "serio", "triste", "crisis");
+		  humanos[i].classList.add(claseEstado);
+	      }
+	  }
+      }
+
+      function hacerExplotar(numExplotar) {
+	  for (let i = 0; i < numExplotar; i ++){
+	      let humanosNoExplotados = document.querySelectorAll(".crisis");
+	      if (humanosNoExplotados.length > 0) {
+		  let indice = Math.floor(Math.random()*humanosNoExplotados.length);
+		  let humanoExplotar = humanosNoExplotados[indice];
+		  humanoExplotar.classList.remove("crisis");
+		  humanoExplotar.classList.add("explosion");
+	      } else {
+		  mostrarBotonInicio();
+		  break;
+	      }
+	  }
+      }
+
+      function crearHumanos() {
+	  let rango = maxHumanos / 5
+	  clearInterval(intervalo);
+	  switch (true){
+	  case contadorHumanos >= 2 * rango && contadorHumanos < 3 * rango: claseEstado = "serio"; actualizarEstado(claseEstado); numCrear = 1; break;
+	  case contadorHumanos >= 3 * rango && contadorHumanos < 4 * rango: claseEstado = "triste"; actualizarEstado(claseEstado); numCrear = 1; break;
+	  case contadorHumanos >= 4 * rango && contadorHumanos < 5 * rango: claseEstado = "crisis"; actualizarEstado(claseEstado); numCrear = 1; break;
+	  case contadorHumanos == maxHumanos: explotar = true; break;
+	  }
+
+	  for(let i = 0; i < numCrear; i++){
+	      if (contadorHumanos < maxHumanos){
+		  crearHumano(claseEstado);
+		  contadorHumanos += 1;
+		  tiempo *= 0.99
+		  actualizarContador(contadorHumanos);
+	      }
+	  }
+	  if (explotar){
+	      hacerExplotar(numExplotar);
+	      numExplotar *= 2;
+	      tiempo = minTiempo;
+	  } else {
+	      tiempo = logisticoInv(contadorHumanos, 1.2, maxHumanos, -1, minTiempo);
+	  }
+	  intervalo = setInterval(crearHumanos, tiempo);
+      }
+
+      crearHumano(claseEstado);
+      actualizarContador(contadorHumanos);
+      function ocultarBotonInicio(){
+	  botonInicio.classList.remove("mostrar");
+	  botonInicio.classList.add("ocultar");
+      }
+      function mostrarBotonInicio(){
+	  botonInicio.classList.remove("ocultar");
+	  botonInicio.classList.add("mostrar");
+      }
+
+      function actualizarContador(c) {
+	  let contador = document.getElementById("contador");
+	  contador.innerHTML = c
+      }
+
+      function reiniciar() {
+	  let humanos = document.querySelectorAll(".humano_container");
+	  if (humanos.length > 1){
+	      for (let i=0; i < humanos.length; i++){
+		  humanos[i].remove();
+	      }
+	      contadorHumanos = 1;
+	  }
+	  contadorHumanos = 0;
+	  claseEstado = "feliz";      
+	  tiempo = 300;
+	  explotar = false;
+	  numExplotar = 1;
+	  arreglo = crearArreglo(W, H);
+	  numCrear = 1;
+	  actualizarContador(contadorHumanos);
+	  
+      }
+      
+      let botonInicio = document.getElementById("inicio");
+      botonInicio.addEventListener("click", () => {
+	  if (contadorHumanos > 1){
+	      reiniciar();
+	  }
+	  ocultarBotonInicio();
+	  crearHumanos();
+      });
+      
+    </script>
+  </body>
+</html>
