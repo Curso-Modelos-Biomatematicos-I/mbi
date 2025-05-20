@@ -4,39 +4,205 @@
     "href": "index.html",
     "title": "Curso Modelos Biomatemáticos I",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Inicio\nBienvenid@ a la página del curso Modelos biomatemáticos I, que se imparte en la Facultad de Ciencias de la UNAM.\nEn esta página encontrarás algunos contenidos teóricos del curso.",
     "crumbs": [
-      "Preface"
+      "Inicio"
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "objectID": "index.html#contacto",
+    "href": "index.html#contacto",
+    "title": "Curso Modelos Biomatemáticos I",
+    "section": "Contacto",
+    "text": "Contacto\n\nLuis Guillermo García Jácome: lggj37[at]ciencias.unam.mx",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "Inicio"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
+    "objectID": "tema_05/modelo_exponencial.html",
+    "href": "tema_05/modelo_exponencial.html",
+    "title": "Modelo exponencial",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.",
+    "text": "Introducción\nEn este capítulo estudiamos el modelo de crecimiento más simple que existe: el modelo exponencial. Este modelo es central ya que es la base de cualquier modelo de crecimiento.\nPrimero se presenta el modelo de crecimiento más general que hay del cual se derivan todos los demás. Después se presentan los supuestos y desarrollo del modelo exponencial y se realizan algunos ejemplos para ver su comportamiento. Posteriormente se presenta la solución analítica del modelo. Finalmente se realiza una simulación del modelo usando hojas de cálculo.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "Módulo 5",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Modelo exponencial</span>"
     ]
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "objectID": "tema_05/modelo_exponencial.html#modelo-general-de-crecimiento-poblacional",
+    "href": "tema_05/modelo_exponencial.html#modelo-general-de-crecimiento-poblacional",
+    "title": "Modelo exponencial",
+    "section": "Modelo general de crecimiento poblacional",
+    "text": "Modelo general de crecimiento poblacional",
     "crumbs": [
-      "References"
+      "Módulo 5",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Modelo exponencial</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_exponencial.html#supuestos-del-modelos",
+    "href": "tema_05/modelo_exponencial.html#supuestos-del-modelos",
+    "title": "Modelo exponencial",
+    "section": "Supuestos del modelos",
+    "text": "Supuestos del modelos",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Modelo exponencial</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_exponencial.html#desarrollo-y-comportamiento",
+    "href": "tema_05/modelo_exponencial.html#desarrollo-y-comportamiento",
+    "title": "Modelo exponencial",
+    "section": "Desarrollo y comportamiento",
+    "text": "Desarrollo y comportamiento",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Modelo exponencial</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_exponencial.html#solución-del-modelo",
+    "href": "tema_05/modelo_exponencial.html#solución-del-modelo",
+    "title": "Modelo exponencial",
+    "section": "Solución del modelo",
+    "text": "Solución del modelo",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Modelo exponencial</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_exponencial.html#práctica-simulación-con-hojas-de-cálculo",
+    "href": "tema_05/modelo_exponencial.html#práctica-simulación-con-hojas-de-cálculo",
+    "title": "Modelo exponencial",
+    "section": "Práctica: Simulación con hojas de cálculo",
+    "text": "Práctica: Simulación con hojas de cálculo\n\n\n\n\n\n\nTip\n\n\n\nSe recomienda que realices esta práctica a la par que ves el video.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Modelo exponencial</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_logistico.html",
+    "href": "tema_05/modelo_logistico.html",
+    "title": "Modelo logístico",
+    "section": "",
+    "text": "Introducción\nEn este capítulo estudiamos el modelo logístico. Este modelo hace supuestos más realistas que el modelo exponencial al considerar que los recursos son limitados. Este ligero cambio en los supuestos tienen consecuencias muy grandes para el comportamiento del modelo.\nPrimero describimos como el supuesto de recursos limitados se ve reflejado en cómo se modelan las tasas de nacimiento y de mortalidad per cápita. Luego desarrollamos el modelo y damos una explicación intuitiva de qué significa la expresión resultante. Posteriormente se realizan simulaciones usando una hoja de cálculo (que está basada en nuestra Simulación del modelo exponencial). Después exploramos la idea de lo que son los puntos o valores de equilibrio y realizamos el análisis gráfico del modelo. Finalmente introducimos el concepto de caos y construimos el diagrama de bifurcación del modelo logístico.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Modelo logístico</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_logistico.html#supuestos-del-modelo",
+    "href": "tema_05/modelo_logistico.html#supuestos-del-modelo",
+    "title": "Modelo logístico",
+    "section": "Supuestos del modelo",
+    "text": "Supuestos del modelo",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Modelo logístico</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_logistico.html#desarrollo",
+    "href": "tema_05/modelo_logistico.html#desarrollo",
+    "title": "Modelo logístico",
+    "section": "Desarrollo",
+    "text": "Desarrollo",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Modelo logístico</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_logistico.html#explicación-del-término-logístico",
+    "href": "tema_05/modelo_logistico.html#explicación-del-término-logístico",
+    "title": "Modelo logístico",
+    "section": "Explicación del término logístico",
+    "text": "Explicación del término logístico",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Modelo logístico</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_logistico.html#práctica-simulación-con-hojas-de-cálculo",
+    "href": "tema_05/modelo_logistico.html#práctica-simulación-con-hojas-de-cálculo",
+    "title": "Modelo logístico",
+    "section": "Práctica: Simulación con hojas de cálculo",
+    "text": "Práctica: Simulación con hojas de cálculo\n\n\n\n\n\n\nTip\n\n\n\nSe recomienda que realices esta práctica a la par que ves el video.\n\n\n\n\n\n\n\n\nImportante\n\n\n\nEsta práctica se basa en la hoja de cálculo resultante de la simulación del modelo exponencial. Así que debes realizarla previamente.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Modelo logístico</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_logistico.html#puntos-de-equilibrio",
+    "href": "tema_05/modelo_logistico.html#puntos-de-equilibrio",
+    "title": "Modelo logístico",
+    "section": "Puntos de equilibrio",
+    "text": "Puntos de equilibrio",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Modelo logístico</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_logistico.html#análisis-gráfico",
+    "href": "tema_05/modelo_logistico.html#análisis-gráfico",
+    "title": "Modelo logístico",
+    "section": "Análisis gráfico",
+    "text": "Análisis gráfico",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Modelo logístico</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_logistico.html#caos",
+    "href": "tema_05/modelo_logistico.html#caos",
+    "title": "Modelo logístico",
+    "section": "Caos",
+    "text": "Caos\n\n\n\n\n\n\n\nExplora la simulación del modelo logístico\n\n\n\nAquí puedes abrir el simulador del modelo logístico en tu navegador web.\nPara ejecutarlo en tu computadora localmente puedes descargar NetLogo y descargar el archivo del modelo.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Modelo logístico</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_logistico.html#diagrama-de-bifurcación",
+    "href": "tema_05/modelo_logistico.html#diagrama-de-bifurcación",
+    "title": "Modelo logístico",
+    "section": "Diagrama de bifurcación",
+    "text": "Diagrama de bifurcación",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Modelo logístico</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_logistico.html#sistemas-dinámicos-laplace-y-otros-sistemas-caóticos-opcional",
+    "href": "tema_05/modelo_logistico.html#sistemas-dinámicos-laplace-y-otros-sistemas-caóticos-opcional",
+    "title": "Modelo logístico",
+    "section": "Sistemas dinámicos, Laplace y otros sistemas caóticos (opcional)",
+    "text": "Sistemas dinámicos, Laplace y otros sistemas caóticos (opcional)\nEstos son videos que hice para otro curso donde se aborda el tema de caos desde una perspectiva más histórica y se ven otros ejemplos de sistemas caóticos. Al final de estos videos se explica de nuevo el caos en el modelo logístico.\n\n\n\n\n\n\n\nExplora la simulación de 2 y 3 cuerpos\n\n\n\nAquí puedes abrir el simulador del modelo de 2 y 3 cuerpos en tu navegador web. Solo que nota que este modelo es muy demandante de recursos como para ejecutarse en el navegador por lo que corre muy lento. Te sugiero descargarlo y ejecutarlo localmente en tu computadora para que se ejecute más rápido.\nPara ejecutarlo en tu computadora localmente puedes descargar NetLogo y descargar el archivo del modelo.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Modelo logístico</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/tema_05.html",
+    "href": "tema_05/tema_05.html",
+    "title": "Módulo 5",
+    "section": "",
+    "text": "En este módulo iniciamos nuestro estudio de los sistemas dinámicos, es decir sistemas que cambian con el tiempo.\nEn particular se discuten dos de los modelos más funamentales en la ecología: el modelo exponencial y el modelo logístico. Posteriormente se discuten algunos de los modelos más básicos en evolución: el modelo de fecuencia alélica de Hardy-Weinberg y el modelo de selección haploide.",
+    "crumbs": [
+      "Módulo 5"
     ]
   }
 ]
