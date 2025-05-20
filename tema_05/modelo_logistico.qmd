@@ -1,0 +1,78 @@
+# Modelo logístico
+
+::: {.callout-note appearance="minimal"} 
+**Contenido**: 8 videos (+2 videos opcionales)    
+**Duración estimada**: 1 hora 7 minutos (+20 minutos opcionales)
+:::
+
+## Introducción
+
+En este capítulo estudiamos el _modelo logístico_. Este modelo hace supuestos más realistas que el modelo exponencial al considerar que los recursos son limitados. Este ligero cambio en los supuestos tienen consecuencias muy grandes para el comportamiento del modelo.
+
+Primero describimos como el supuesto de recursos limitados se ve reflejado en cómo se modelan las tasas de nacimiento y de mortalidad _per cápita_. Luego desarrollamos el modelo y damos una explicación intuitiva de qué significa la expresión resultante. Posteriormente se realizan simulaciones usando una hoja de cálculo (que está basada en nuestra [Simulación del modelo exponencial](./modelo_exponencial.qmd#práctica-simulación-con-hojas-de-cálculo)). Después exploramos la idea de lo que son los puntos o valores de equilibrio y realizamos el análisis gráfico del modelo. Finalmente introducimos el concepto de caos y construimos el diagrama de bifurcación del modelo logístico. 
+
+## Supuestos del modelo
+
+{{<video https://youtu.be/SaM4Szual0o>}}
+
+## Desarrollo
+
+{{<video https://youtu.be/hThtO6tZiRM>}}
+
+## Explicación del término logístico
+
+{{<video https://youtu.be/brbGvtYykpA>}}
+
+## Práctica: Simulación con hojas de cálculo
+
+::: {.callout-tip}
+Se recomienda que realices esta práctica a la par que ves el video. 
+:::
+
+::: {.callout-important}
+Esta práctica se basa en la hoja de cálculo resultante de la [simulación del modelo exponencial](./modelo_exponencial.qmd#práctica-simulación-con-hojas-de-cálculo). Así que debes realizarla previamente.
+:::
+
+{{<video https://youtu.be/ikalgvkZijI>}}
+
+## Puntos de equilibrio
+
+{{<video https://youtu.be/A2I2Ot76ytc>}}
+
+## Análisis gráfico
+
+{{<video https://youtu.be/-ilKIBHGedM>}}
+
+## Caos
+
+{{<video https://youtu.be/AGa4-FhH0gE>}}
+
+::: {.callout-note}
+# Explora la simulación del modelo logístico
+
+Aquí puedes [abrir el simulador del modelo logístico en tu navegador web](../sims/modelo_logistico/mapa-logistico.html).
+
+Para ejecutarlo en tu computadora localmente puedes [descargar NetLogo](https://ccl.northwestern.edu/netlogo/6.4.0/) y 
+<a href="https://curso-modelos-biomatematicos-i.github.io/mbi/sims/modelo_logistico/mapa-logistico.nlogo" download>descargar el archivo del modelo</a>.
+:::
+
+## Diagrama de bifurcación
+
+{{<video https://youtu.be/5Gts1arBbkQ>}}
+
+## Sistemas dinámicos, Laplace y otros sistemas caóticos (opcional)
+
+Estos son videos que hice para otro curso donde se aborda el tema de caos desde una perspectiva más histórica y se ven otros ejemplos de sistemas caóticos. Al final de estos videos se explica de nuevo el caos en el modelo logístico.
+
+{{<video https://youtu.be/B9FRN82vSQQ>}}
+
+::: {.callout-note}
+# Explora la simulación de 2 y 3 cuerpos
+
+Aquí puedes [abrir el simulador del modelo de 2 y 3 cuerpos en tu navegador web](../sims/2-3_cuerpos/2-3-cuerpos.html). Solo que nota que este modelo es muy demandante de recursos como para ejecutarse en el navegador por lo que **corre muy lento**. Te sugiero descargarlo y ejecutarlo localmente en tu computadora para que se ejecute más rápido.
+
+Para ejecutarlo en tu computadora localmente puedes [descargar NetLogo](https://ccl.northwestern.edu/netlogo/6.4.0/) y 
+<a href="https://curso-modelos-biomatematicos-i.github.io/mbi/sims//2-3_cuerpos/2-3-cuerpos.nlogo" download>descargar el archivo del modelo</a>.
+:::
+
+{{<video https://youtu.be/TD7RBtIaagg>}}

@@ -1,0 +1,5 @@
+# Módulo 5
+
+En este módulo iniciamos nuestro estudio de los *sistemas dinámicos*, es decir sistemas que cambian con el tiempo. 
+
+En particular se discuten dos de los modelos más funamentales en la ecología: el modelo exponencial y el modelo logístico. Posteriormente se discuten algunos de los modelos más básicos en evolución: el modelo de fecuencia alélica de Hardy-Weinberg y el modelo de selección haploide.

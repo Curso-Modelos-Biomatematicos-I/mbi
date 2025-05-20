@@ -1,15 +1,32 @@
 project:
   type: book
 
+lang: "es"
+
 book:
   title: "Curso Modelos Biomatemáticos I"
-  author: "Norah Jones"
-  date: "2/25/2025"
+  author: "Luis Guillermo García Jácome"
+  date: "05/18/2025"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    # - part: ./tema_01/tema_01.qmd
+    #   chapters: 
+    #     - ./tema_01/modelación_matemática_en_las_ciencias.qmd
+    #     - ./tema_01/Practica_01.ipynb
+    # - part: tema_02.qmd
+    # - part: tema_03.qmd
+    # - part: tema_04.qmd
+    - part: ./tema_05/tema_05.qmd
+      chapters:
+        - ./tema_05/modelo_exponencial.qmd
+        - ./tema_05/modelo_logistico.qmd
+        # - ./tema_05/modelo_de_hardy_weinberg.qmd
+        # - ./tema_05/modelo_de_seleccion_haploide.qmd
+    # - part: ./tema_06/tema_06.qmd
+    #   chapters:
+    #     - ./tema_06/modelo_de_Leslie.qmd
+    #     - ./tema_06/modelo_SIR.qmd
+    # - references.qmd
 
 bibliography: references.bib
 

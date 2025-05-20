@@ -1,0 +1,36 @@
+# Modelo exponencial
+
+::: {.callout-note appearance="minimal"} 
+**Contenido**: 5 videos  
+**Duración estimada**: 45 minutos
+:::
+
+## Introducción
+
+En este capítulo estudiamos el modelo de crecimiento más simple que existe: el _modelo exponencial_. Este modelo es central ya que es la base de cualquier modelo de crecimiento.
+
+Primero se presenta el modelo de crecimiento más general que hay del cual se derivan todos los demás. Después se presentan los supuestos y desarrollo del modelo exponencial y se realizan algunos ejemplos para ver su comportamiento. Posteriormente se presenta la solución analítica del modelo. Finalmente se realiza una simulación del modelo usando hojas de cálculo.
+
+## Modelo general de crecimiento poblacional
+
+{{<video https://youtu.be/Kknacsz4RVc>}}
+
+## Supuestos del modelos
+
+{{<video https://youtu.be/tlNwtaiWrFA>}}
+
+## Desarrollo y comportamiento
+
+{{<video https://youtu.be/eBPUSfxLbgs>}}
+
+## Solución del modelo
+
+{{<video https://youtu.be/ExQ9xa7gRXs>}}
+
+## Práctica: Simulación con hojas de cálculo
+
+::: {.callout-tip}
+Se recomienda que realices esta práctica a la par que ves el video. 
+:::
+
+{{<video https://youtu.be/yQTK2_ogmzo>}}

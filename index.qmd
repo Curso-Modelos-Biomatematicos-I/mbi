@@ -1,5 +1,13 @@
-# Preface {.unnumbered}
+# Inicio {.unnumbered}
 
-This is a Quarto book.
+Bienvenid@ a la página del curso _Modelos biomatemáticos I_, que se imparte en la Facultad de Ciencias de la UNAM.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+En esta página encontrarás algunos contenidos teóricos del curso.
+
+```{=html}
+<iframe src="https://slides.com/bmbi/deck-b758cd/embed" width="100%" height="600px" title="Presentación curso" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+```
+
+## Contacto
+
+- *Luis Guillermo García Jácome*: lggj37[at]ciencias.unam.mx

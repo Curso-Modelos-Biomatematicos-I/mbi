@@ -1,0 +1,5 @@
+# La modelación matemática en las ciencias
+
+```{=html}
+<iframe src="https://slides.com/bmbi/deck-d9c9bf/embed" width="100%" height="600" title="Modelación" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+```
