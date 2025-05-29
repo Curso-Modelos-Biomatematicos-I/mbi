@@ -1,3 +1,63 @@
-# Modelo de Hardy-Weinberg
+# Principio de Hardy-Weinberg y deriva génica
 
-Próximamente... 
+::: {.callout-note appearance="minimal"} 
+**Contenido**: 8 videos  
+**Duración estimada**: 1 hora 30 minutos
+:::
+
+## Introducción
+
+En este capítulo iniciamos nuestro estudio de algunos modelos de evolución biológica. Para poder entender cómo cambian las poblaciones durante la evolución primero debemos entender cómo se ve una población que no evoluciona. Esto es justo lo que el principio de Hardy-Weinberg nos ofrece.
+
+Primero se discute brevemente qué es la evolución biológica y se explica y explora una simulación computacional de una población donde no opera ninguna fuerza evolutiva. Posteriormente pasamos a traducir este modelo al lenguaje matemático y a demostrar el principio o equilibrio de Hardy-Weinberg. Finalmente aprovechamos nuestra simulación computacional para explorar una fuerza evolutiva: la deriva génica. 
+
+## Principio de Hardy-Weinberg
+
+### Evolución biológica y explicación de la simulación
+
+{{<video https://youtu.be/TS11j2D3vIY>}}
+
+### Exploración de la simulación 
+
+{{<video https://youtu.be/UajMHYBmXww>}}
+
+::: {.callout-note}
+### Explora la simulación del principio de Hardy-Weinberg
+
+Aquí puedes [abrir el simulador del modelo logístico en tu navegador web ](../sims/principio_HW/principio_HW.html).
+
+Para ejecutarlo en tu computadora localmente puedes [descargar NetLogo](https://ccl.northwestern.edu/netlogo/6.4.0/) y 
+<a href="https://curso-modelos-biomatematicos-i.github.io/mbi/sims/principio_HW/principio_HW.nlogo" download>descargar el archivo del modelo</a>.
+:::
+
+### Desarrollo del modelo
+
+{{<video https://youtu.be/IamdjHVTIzY>}}
+
+### Demostración de principio de Hardy-Weinberg
+
+{{<video https://youtu.be/prSZYjM_Z24>}}
+
+### Construcción de gráfica
+
+::: {.callout-tip}
+Se recomienda que realices esta práctica a la par que ves el video. 
+:::
+
+{{<video https://youtu.be/rlH6Xtc_qGw>}}
+
+## Deriva génica
+
+### Simulación de deriva génica
+
+{{<video https://youtu.be/GFmFYK0mffk>}}
+
+### Deriva génica y sus propiedades
+
+{{<video https://youtu.be/Nm4zvzWxPbU>}}
+
+### Efecto fundador y efecto de cuello de botella
+
+La «reproducción aleatoria» que subyace a la deriva génica no significa que uno no pueda conocer los mecanismos que producen la deriva génica. Hay distintos procesos que pueden favorecer que opere la deriva génica en una población.  Dos de ellos son el **efecto fundador** y el **efecto de cuello de botella**. Estos se caracterizan por generar condiciones donde las poblaciones son muy pequeñas favoreciendo así que la deriva génica sea más fuerte y tenga efectos significativos sobre las frecuencias alélicas de una población. A continuación se presentan un par de ejemplos de estos procesos:
+
+{{<video https://youtu.be/wzIXweZ7pyE>}}
