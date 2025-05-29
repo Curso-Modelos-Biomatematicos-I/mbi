@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Modelo de Hardy-Weinberg – Curso Modelos Biomatemáticos I</title>
+<title>Principio de Hardy-Weinberg y deriva génica – Curso Modelos Biomatemáticos I</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../tema_05/modelo_de_seleccion_haploide.html" rel="next">
 <link href="../tema_05/modelo_logistico.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -81,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tema_05/tema_05.html">5. Sistemas dinámicos discretos y modelos de crecimiento</a></li><li class="breadcrumb-item"><a href="../tema_05/modelo_de_hardy_weinberg.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelo de Hardy-Weinberg</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tema_05/tema_05.html">Módulo 5</a></li><li class="breadcrumb-item"><a href="../tema_05/modelo_de_hardy_weinberg.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Principio de Hardy-Weinberg y deriva génica</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -113,30 +112,14 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">1. La modelación matemática en las ciencias</span></span>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">2. Proporciones, concentraciones y soluciones</span></span>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">3. Probabilidad: genética y herencia</span></span>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">4. Funciones potenciales: relaciones morfométricas y alometría</span></span>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../tema_05/tema_05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5. Sistemas dinámicos discretos y modelos de crecimiento</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+ <span class="menu-text">Módulo 5</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../tema_05/modelo_exponencial.html" class="sidebar-item-text sidebar-link">
@@ -152,60 +135,45 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../tema_05/modelo_de_hardy_weinberg.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelo de Hardy-Weinberg</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tema_05/modelo_de_seleccion_haploide.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Modelo de selección haploide</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Principio de Hardy-Weinberg y deriva génica</span></span></a>
   </div>
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
- <span class="menu-text">tema_06.qmd</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Alternar sección">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tema_06/modelo_de_Leslie.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Modelo de Leslie</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tema_06/modelo_SIR.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Modelo SIR</span></span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Referencias</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#principio-de-hardy-weinberg" id="toc-principio-de-hardy-weinberg" class="nav-link" data-scroll-target="#principio-de-hardy-weinberg">Principio de Hardy-Weinberg</a>
+  <ul class="collapse">
+  <li><a href="#evolución-biológica-y-explicación-de-la-simulación" id="toc-evolución-biológica-y-explicación-de-la-simulación" class="nav-link" data-scroll-target="#evolución-biológica-y-explicación-de-la-simulación">Evolución biológica y explicación de la simulación</a></li>
+  <li><a href="#exploración-de-la-simulación" id="toc-exploración-de-la-simulación" class="nav-link" data-scroll-target="#exploración-de-la-simulación">Exploración de la simulación</a></li>
+  <li><a href="#desarrollo-del-modelo" id="toc-desarrollo-del-modelo" class="nav-link" data-scroll-target="#desarrollo-del-modelo">Desarrollo del modelo</a></li>
+  <li><a href="#demostración-de-principio-de-hardy-weinberg" id="toc-demostración-de-principio-de-hardy-weinberg" class="nav-link" data-scroll-target="#demostración-de-principio-de-hardy-weinberg">Demostración de principio de Hardy-Weinberg</a></li>
+  <li><a href="#construcción-de-gráfica" id="toc-construcción-de-gráfica" class="nav-link" data-scroll-target="#construcción-de-gráfica">Construcción de gráfica</a></li>
+  </ul></li>
+  <li><a href="#deriva-génica" id="toc-deriva-génica" class="nav-link" data-scroll-target="#deriva-génica">Deriva génica</a>
+  <ul class="collapse">
+  <li><a href="#simulación-de-deriva-génica" id="toc-simulación-de-deriva-génica" class="nav-link" data-scroll-target="#simulación-de-deriva-génica">Simulación de deriva génica</a></li>
+  <li><a href="#deriva-génica-y-sus-propiedades" id="toc-deriva-génica-y-sus-propiedades" class="nav-link" data-scroll-target="#deriva-génica-y-sus-propiedades">Deriva génica y sus propiedades</a></li>
+  <li><a href="#efecto-fundador-y-efecto-de-cuello-de-botella" id="toc-efecto-fundador-y-efecto-de-cuello-de-botella" class="nav-link" data-scroll-target="#efecto-fundador-y-efecto-de-cuello-de-botella">Efecto fundador y efecto de cuello de botella</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tema_05/tema_05.html">5. Sistemas dinámicos discretos y modelos de crecimiento</a></li><li class="breadcrumb-item"><a href="../tema_05/modelo_de_hardy_weinberg.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Modelo de Hardy-Weinberg</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tema_05/tema_05.html">Módulo 5</a></li><li class="breadcrumb-item"><a href="../tema_05/modelo_de_hardy_weinberg.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Principio de Hardy-Weinberg y deriva génica</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Modelo de Hardy-Weinberg</h1>
+<h1 class="title">Principio de Hardy-Weinberg y deriva génica</h1>
 </div>
 
 
@@ -222,9 +190,90 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Próximamente…</p>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Contenido</strong>: 8 videos<br>
+<strong>Duración estimada</strong>: 1 hora 30 minutos</p>
+</div>
+</div>
+</div>
+<section id="introducción" class="level2">
+<h2 class="anchored" data-anchor-id="introducción">Introducción</h2>
+<p>En este capítulo iniciamos nuestro estudio de algunos modelos de evolución biológica. Para poder entender cómo cambian las poblaciones durante la evolución primero debemos entender cómo se ve una población que no evoluciona. Esto es justo lo que el principio de Hardy-Weinberg nos ofrece.</p>
+<p>Primero se discute brevemente qué es la evolución biológica y se explica y explora una simulación computacional de una población donde no opera ninguna fuerza evolutiva. Posteriormente pasamos a traducir este modelo al lenguaje matemático y a demostrar el principio o equilibrio de Hardy-Weinberg. Finalmente aprovechamos nuestra simulación computacional para explorar una fuerza evolutiva: la deriva génica.</p>
+</section>
+<section id="principio-de-hardy-weinberg" class="level2">
+<h2 class="anchored" data-anchor-id="principio-de-hardy-weinberg">Principio de Hardy-Weinberg</h2>
+<section id="evolución-biológica-y-explicación-de-la-simulación" class="level3">
+<h3 class="anchored" data-anchor-id="evolución-biológica-y-explicación-de-la-simulación">Evolución biológica y explicación de la simulación</h3>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/TS11j2D3vIY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="exploración-de-la-simulación" class="level3">
+<h3 class="anchored" data-anchor-id="exploración-de-la-simulación">Exploración de la simulación</h3>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/UajMHYBmXww" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Explora la simulación del principio de Hardy-Weinberg
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Aquí puedes <a href="../sims/principio_HW/principio_HW.html">abrir el simulador del modelo logístico en tu navegador web</a>.</p>
+<p>Para ejecutarlo en tu computadora localmente puedes <a href="https://ccl.northwestern.edu/netlogo/6.4.0/">descargar NetLogo</a> y <a href="https://curso-modelos-biomatematicos-i.github.io/mbi/sims/principio_HW/principio_HW.nlogo" download="">descargar el archivo del modelo</a>.</p>
+</div>
+</div>
+</section>
+<section id="desarrollo-del-modelo" class="level3">
+<h3 class="anchored" data-anchor-id="desarrollo-del-modelo">Desarrollo del modelo</h3>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/IamdjHVTIzY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="demostración-de-principio-de-hardy-weinberg" class="level3">
+<h3 class="anchored" data-anchor-id="demostración-de-principio-de-hardy-weinberg">Demostración de principio de Hardy-Weinberg</h3>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/prSZYjM_Z24" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="construcción-de-gráfica" class="level3">
+<h3 class="anchored" data-anchor-id="construcción-de-gráfica">Construcción de gráfica</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Se recomienda que realices esta práctica a la par que ves el video.</p>
+</div>
+</div>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/rlH6Xtc_qGw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+</section>
+<section id="deriva-génica" class="level2">
+<h2 class="anchored" data-anchor-id="deriva-génica">Deriva génica</h2>
+<section id="simulación-de-deriva-génica" class="level3">
+<h3 class="anchored" data-anchor-id="simulación-de-deriva-génica">Simulación de deriva génica</h3>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/GFmFYK0mffk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="deriva-génica-y-sus-propiedades" class="level3">
+<h3 class="anchored" data-anchor-id="deriva-génica-y-sus-propiedades">Deriva génica y sus propiedades</h3>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/Nm4zvzWxPbU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="efecto-fundador-y-efecto-de-cuello-de-botella" class="level3">
+<h3 class="anchored" data-anchor-id="efecto-fundador-y-efecto-de-cuello-de-botella">Efecto fundador y efecto de cuello de botella</h3>
+<p>La «reproducción aleatoria» que subyace a la deriva génica no significa que uno no pueda conocer los mecanismos que producen la deriva génica. Hay distintos procesos que pueden favorecer que opere la deriva génica en una población. Dos de ellos son el <strong>efecto fundador</strong> y el <strong>efecto de cuello de botella</strong>. Estos se caracterizan por generar condiciones donde las poblaciones son muy pequeñas favoreciendo así que la deriva génica sea más fuerte y tenga efectos significativos sobre las frecuencias alélicas de una población. A continuación se presentan un par de ejemplos de estos procesos:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wzIXweZ7pyE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -654,9 +703,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../tema_05/modelo_de_seleccion_haploide.html" class="pagination-link" aria-label="Modelo de selección haploide">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Modelo de selección haploide</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

@@ -196,6 +196,39 @@
     ]
   },
   {
+    "objectID": "tema_05/modelo_de_hardy_weinberg.html",
+    "href": "tema_05/modelo_de_hardy_weinberg.html",
+    "title": "Principio de Hardy-Weinberg y deriva génica",
+    "section": "",
+    "text": "Introducción\nEn este capítulo iniciamos nuestro estudio de algunos modelos de evolución biológica. Para poder entender cómo cambian las poblaciones durante la evolución primero debemos entender cómo se ve una población que no evoluciona. Esto es justo lo que el principio de Hardy-Weinberg nos ofrece.\nPrimero se discute brevemente qué es la evolución biológica y se explica y explora una simulación computacional de una población donde no opera ninguna fuerza evolutiva. Posteriormente pasamos a traducir este modelo al lenguaje matemático y a demostrar el principio o equilibrio de Hardy-Weinberg. Finalmente aprovechamos nuestra simulación computacional para explorar una fuerza evolutiva: la deriva génica.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Principio de Hardy-Weinberg y deriva génica</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_de_hardy_weinberg.html#principio-de-hardy-weinberg",
+    "href": "tema_05/modelo_de_hardy_weinberg.html#principio-de-hardy-weinberg",
+    "title": "Principio de Hardy-Weinberg y deriva génica",
+    "section": "Principio de Hardy-Weinberg",
+    "text": "Principio de Hardy-Weinberg\n\nEvolución biológica y explicación de la simulación\n\n\n\nExploración de la simulación\n\n\n\n\n\n\n\nExplora la simulación del principio de Hardy-Weinberg\n\n\n\nAquí puedes abrir el simulador del modelo logístico en tu navegador web.\nPara ejecutarlo en tu computadora localmente puedes descargar NetLogo y descargar el archivo del modelo.\n\n\n\n\nDesarrollo del modelo\n\n\n\nDemostración de principio de Hardy-Weinberg\n\n\n\nConstrucción de gráfica\n\n\n\n\n\n\nTip\n\n\n\nSe recomienda que realices esta práctica a la par que ves el video.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Principio de Hardy-Weinberg y deriva génica</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_de_hardy_weinberg.html#deriva-génica",
+    "href": "tema_05/modelo_de_hardy_weinberg.html#deriva-génica",
+    "title": "Principio de Hardy-Weinberg y deriva génica",
+    "section": "Deriva génica",
+    "text": "Deriva génica\n\nSimulación de deriva génica\n\n\n\nDeriva génica y sus propiedades\n\n\n\nEfecto fundador y efecto de cuello de botella\nLa «reproducción aleatoria» que subyace a la deriva génica no significa que uno no pueda conocer los mecanismos que producen la deriva génica. Hay distintos procesos que pueden favorecer que opere la deriva génica en una población. Dos de ellos son el efecto fundador y el efecto de cuello de botella. Estos se caracterizan por generar condiciones donde las poblaciones son muy pequeñas favoreciendo así que la deriva génica sea más fuerte y tenga efectos significativos sobre las frecuencias alélicas de una población. A continuación se presentan un par de ejemplos de estos procesos:",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Principio de Hardy-Weinberg y deriva génica</span>"
+    ]
+  },
+  {
     "objectID": "tema_05/tema_05.html",
     "href": "tema_05/tema_05.html",
     "title": "Módulo 5",
