@@ -76,3 +76,12 @@ Para ejecutarlo en tu computadora localmente puedes [descargar NetLogo](https://
 :::
 
 {{<video https://youtu.be/TD7RBtIaagg>}}
+
+## Lecturas sugeridas
+
+Para aprender más puedes consultar:
+
+- Capítulo 8 de Donovan y Welden [-@donovan2002]
+- Sección 1.2, 1.3, 1.4 y 1.5 de Allman *et al.* [-@allman2004]
+- Capítulo 5 de Case [-@case2000]
+- Secciones 3.2.2 y 4.2.2 de Otto y Troy [-@otto2007]

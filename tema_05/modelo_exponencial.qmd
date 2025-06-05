@@ -34,3 +34,13 @@ Se recomienda que realices esta práctica a la par que ves el video.
 :::
 
 {{<video https://youtu.be/yQTK2_ogmzo>}}
+
+
+## Lecturas sugeridas
+
+Para aprender más puedes consultar:
+
+- Capítulo 7 de Donovan y Welden [-@donovan2002]
+- Sección 1.1 de Allman *et al.* [-@allman2004]
+- Sección 3.2.1 de Otto y Troy [-@otto2007]
+- Capítulo 1 de Case [-@case2000]

@@ -61,3 +61,11 @@ Se recomienda que realices esta práctica a la par que ves el video.
 La «reproducción aleatoria» que subyace a la deriva génica no significa que uno no pueda conocer los mecanismos que producen la deriva génica. Hay distintos procesos que pueden favorecer que opere la deriva génica en una población.  Dos de ellos son el **efecto fundador** y el **efecto de cuello de botella**. Estos se caracterizan por generar condiciones donde las poblaciones son muy pequeñas favoreciendo así que la deriva génica sea más fuerte y tenga efectos significativos sobre las frecuencias alélicas de una población. A continuación se presentan un par de ejemplos de estos procesos:
 
 {{<video https://youtu.be/wzIXweZ7pyE>}}
+
+## Lecturas sugeridas
+
+Para aprender más puedes consultar:
+
+- Capítulo 29 de Donovan y Welden [-@donovan2002]
+- Sección 6.4 de Allman *et al.* [-@allman2004]
+- Capítulo 23 de Urry *et al.* [-@urry2021]

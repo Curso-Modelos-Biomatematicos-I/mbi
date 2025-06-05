@@ -21,12 +21,12 @@ book:
         - ./tema_05/modelo_exponencial.qmd
         - ./tema_05/modelo_logistico.qmd
         - ./tema_05/modelo_de_hardy_weinberg.qmd
-        # - ./tema_05/modelo_de_seleccion_haploide.qmd
+        - ./tema_05/modelo_de_seleccion.qmd
     # - part: ./tema_06/tema_06.qmd
     #   chapters:
     #     - ./tema_06/modelo_de_Leslie.qmd
     #     - ./tema_06/modelo_SIR.qmd
-    # - references.qmd
+    - references.qmd
 
 bibliography: references.bib
 
