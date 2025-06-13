@@ -86,6 +86,17 @@
     ]
   },
   {
+    "objectID": "tema_05/modelo_exponencial.html#lecturas-sugeridas",
+    "href": "tema_05/modelo_exponencial.html#lecturas-sugeridas",
+    "title": "Modelo exponencial",
+    "section": "Lecturas sugeridas",
+    "text": "Lecturas sugeridas\nPara aprender más puedes consultar:\n\nCapítulo 7 de Donovan y Welden (2002)\nSección 1.1 de Allman et al. (2004)\nSección 3.2.1 de Otto y Troy (2007)\nCapítulo 1 de Case (2000)\n\n\n\n\n\nAllman, Elizabeth S, y John A Rhodes. 2004. Mathematical Models in Biology: An Introduction. Cambridge: Cambridge Univ. Press.\n\n\nCase, Ted J. 2000. An Illustrated Guide to Theoretical Ecology. New York ; Oxford: Oxford University Press.\n\n\nDonovan, Therese Marie, y Charles Woodson Welden. 2002. Spreadsheet Exercises in Ecology and Evolution. Sunderland, Massachusetts: Sinauer.\n\n\nOtto, Sarah P., y Troy Day. 2007. A Biologist’s Guide to Mathematical Modeling in Ecology and Evolution. Princeton: Princeton University Press.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Modelo exponencial</span>"
+    ]
+  },
+  {
     "objectID": "tema_05/modelo_logistico.html",
     "href": "tema_05/modelo_logistico.html",
     "title": "Modelo logístico",
@@ -196,6 +207,17 @@
     ]
   },
   {
+    "objectID": "tema_05/modelo_logistico.html#lecturas-sugeridas",
+    "href": "tema_05/modelo_logistico.html#lecturas-sugeridas",
+    "title": "Modelo logístico",
+    "section": "Lecturas sugeridas",
+    "text": "Lecturas sugeridas\nPara aprender más puedes consultar:\n\nCapítulo 8 de Donovan y Welden (2002)\nSección 1.2, 1.3, 1.4 y 1.5 de Allman et al. (2004)\nCapítulo 5 de Case (2000)\nSecciones 3.2.2 y 4.2.2 de Otto y Troy (2007)\n\n\n\n\n\nAllman, Elizabeth S, y John A Rhodes. 2004. Mathematical Models in Biology: An Introduction. Cambridge: Cambridge Univ. Press.\n\n\nCase, Ted J. 2000. An Illustrated Guide to Theoretical Ecology. New York ; Oxford: Oxford University Press.\n\n\nDonovan, Therese Marie, y Charles Woodson Welden. 2002. Spreadsheet Exercises in Ecology and Evolution. Sunderland, Massachusetts: Sinauer.\n\n\nOtto, Sarah P., y Troy Day. 2007. A Biologist’s Guide to Mathematical Modeling in Ecology and Evolution. Princeton: Princeton University Press.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Modelo logístico</span>"
+    ]
+  },
+  {
     "objectID": "tema_05/modelo_de_hardy_weinberg.html",
     "href": "tema_05/modelo_de_hardy_weinberg.html",
     "title": "Principio de Hardy-Weinberg y deriva génica",
@@ -211,7 +233,7 @@
     "href": "tema_05/modelo_de_hardy_weinberg.html#principio-de-hardy-weinberg",
     "title": "Principio de Hardy-Weinberg y deriva génica",
     "section": "Principio de Hardy-Weinberg",
-    "text": "Principio de Hardy-Weinberg\n\nEvolución biológica y explicación de la simulación\n\n\n\nExploración de la simulación\n\n\n\n\n\n\n\nExplora la simulación del principio de Hardy-Weinberg\n\n\n\nAquí puedes abrir el simulador del modelo logístico en tu navegador web.\nPara ejecutarlo en tu computadora localmente puedes descargar NetLogo y descargar el archivo del modelo.\n\n\n\n\nDesarrollo del modelo\n\n\n\nDemostración de principio de Hardy-Weinberg\n\n\n\nConstrucción de gráfica\n\n\n\n\n\n\nTip\n\n\n\nSe recomienda que realices esta práctica a la par que ves el video.",
+    "text": "Principio de Hardy-Weinberg\n\nEvolución biológica y explicación de la simulación\n\n\n\nExploración de la simulación\n\n\n\n\n\n\n\nExplora la simulación del principio de Hardy-Weinberg\n\n\n\nAquí puedes abrir el simulador del modelo logístico en tu navegador web.\nPara ejecutarlo en tu computadora localmente puedes descargar NetLogo y descargar el archivo del modelo.\n\n\n\n\nDesarrollo del modelo\n\n\n\nDemostración de principio de Hardy-Weinberg\n\n\n\nPráctica: Construcción de gráfica\n\n\n\n\n\n\nTip\n\n\n\nSe recomienda que realices esta práctica a la par que ves el video.",
     "crumbs": [
       "Módulo 5",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Principio de Hardy-Weinberg y deriva génica</span>"
@@ -229,11 +251,142 @@
     ]
   },
   {
+    "objectID": "tema_05/modelo_de_hardy_weinberg.html#lecturas-sugeridas",
+    "href": "tema_05/modelo_de_hardy_weinberg.html#lecturas-sugeridas",
+    "title": "Principio de Hardy-Weinberg y deriva génica",
+    "section": "Lecturas sugeridas",
+    "text": "Lecturas sugeridas\nPara aprender más puedes consultar:\n\nCapítulo 29 de Donovan y Welden (2002)\nSección 6.4 de Allman et al. (2004)\nCapítulo 23 de Urry et al. (2021)\n\n\n\n\n\nAllman, Elizabeth S, y John A Rhodes. 2004. Mathematical Models in Biology: An Introduction. Cambridge: Cambridge Univ. Press.\n\n\nDonovan, Therese Marie, y Charles Woodson Welden. 2002. Spreadsheet Exercises in Ecology and Evolution. Sunderland, Massachusetts: Sinauer.\n\n\nUrry, Lisa A., Michael L. Cain, Steven Alexander Wasserman, Peter V. Minorsky, Rebecca B. Orr, y Neil A. Campbell. 2021. Campbell Biology. Twelfth edition. New York, NY: Pearson.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Principio de Hardy-Weinberg y deriva génica</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_de_seleccion.html",
+    "href": "tema_05/modelo_de_seleccion.html",
+    "title": "Modelo de selección diploide",
+    "section": "",
+    "text": "Introducción\nEn el capítulo anterior discutimos el principio o equilibrio de Hardy-Weinberg, el cual describe cómo se ve una población en la que no opera ninguna fuerza evolutiva y por lo tanto que no evoluciona. En este capítulo extendemos el modelo para integrar una de las principales fuerzas evolutivas: la selección natural.\nPrimero repasamos qué es la selección natural y los elementos que requiere. Posteriormente vemos un ejemplo real de evolución por selección natural y luego pasamos a explorar ese ejemplo en una simulación computacional. A continuación desarrollamos el modelo matemáticamente y pasamos a explorar la dinámica que describe usando hojas de cálculo. Finalmente aplicamos el análisis gráfico para identificar los comportamientos que el modelo predice.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelo de selección diploide</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_de_seleccion.html#selección-natural",
+    "href": "tema_05/modelo_de_seleccion.html#selección-natural",
+    "title": "Modelo de selección diploide",
+    "section": "Selección natural",
+    "text": "Selección natural",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelo de selección diploide</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_de_seleccion.html#la-selección-y-adaptación-de-los-ratones-de-bolsillo",
+    "href": "tema_05/modelo_de_seleccion.html#la-selección-y-adaptación-de-los-ratones-de-bolsillo",
+    "title": "Modelo de selección diploide",
+    "section": "La selección y adaptación de los ratones de bolsillo",
+    "text": "La selección y adaptación de los ratones de bolsillo\nEn el siguiente video se muestra un ejemplo muy estudiado y bien documentado de evolución y adaptación por selección natural de los ratónes de bolsillo en el desierto de Nuevo México. La simulación computacional que vamos a explorar en los siguientes videos está basado en este ejemplo.\n\n\n\n\n\n\nTip\n\n\n\nEl video está en inglés pero puedes agregarle subtítulos en español.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelo de selección diploide</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_de_seleccion.html#exploración-de-modelo-computacional",
+    "href": "tema_05/modelo_de_seleccion.html#exploración-de-modelo-computacional",
+    "title": "Modelo de selección diploide",
+    "section": "Exploración de modelo computacional",
+    "text": "Exploración de modelo computacional\n\n\n\n\n\n\n\nExplora la simulación del modelo de selección\n\n\n\nAquí puedes abrir el simulador del modelo de selección en tu navegador web. Nota que en la versión web no se ve la animación de los depredadores, sin embargo, la selección sí ocurre (puedes notar cómo el tamaño poblacional disminuye).\nPara ejecutarlo en tu computadora localmente puedes descargar NetLogo y descargar el archivo del modelo.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelo de selección diploide</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_de_seleccion.html#desarrollo-de-modelo-de-selección",
+    "href": "tema_05/modelo_de_seleccion.html#desarrollo-de-modelo-de-selección",
+    "title": "Modelo de selección diploide",
+    "section": "Desarrollo de modelo de selección",
+    "text": "Desarrollo de modelo de selección",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelo de selección diploide</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_de_seleccion.html#práctica-simulación-con-hojas-de-cálculo",
+    "href": "tema_05/modelo_de_seleccion.html#práctica-simulación-con-hojas-de-cálculo",
+    "title": "Modelo de selección diploide",
+    "section": "Práctica: Simulación con hojas de cálculo",
+    "text": "Práctica: Simulación con hojas de cálculo\n\n\n\n\n\n\nTip\n\n\n\nSe recomienda que realices esta práctica a la par que ves el video.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelo de selección diploide</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_de_seleccion.html#análisis-gráfico-del-modelo",
+    "href": "tema_05/modelo_de_seleccion.html#análisis-gráfico-del-modelo",
+    "title": "Modelo de selección diploide",
+    "section": "Análisis gráfico del modelo",
+    "text": "Análisis gráfico del modelo\n\nParte 1\n\n\n\nParte 2",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelo de selección diploide</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_de_seleccion.html#ejemplos-de-selección-positiva-sobredominancia-y-subdominancia",
+    "href": "tema_05/modelo_de_seleccion.html#ejemplos-de-selección-positiva-sobredominancia-y-subdominancia",
+    "title": "Modelo de selección diploide",
+    "section": "Ejemplos de selección positiva, sobredominancia y subdominancia",
+    "text": "Ejemplos de selección positiva, sobredominancia y subdominancia",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelo de selección diploide</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_de_seleccion.html#velocidad-de-selección",
+    "href": "tema_05/modelo_de_seleccion.html#velocidad-de-selección",
+    "title": "Modelo de selección diploide",
+    "section": "Velocidad de selección",
+    "text": "Velocidad de selección",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelo de selección diploide</span>"
+    ]
+  },
+  {
+    "objectID": "tema_05/modelo_de_seleccion.html#lecturas-sugeridas",
+    "href": "tema_05/modelo_de_seleccion.html#lecturas-sugeridas",
+    "title": "Modelo de selección diploide",
+    "section": "Lecturas sugeridas",
+    "text": "Lecturas sugeridas\nPara aprender más puedes consultar:\n\nCapítulo 5 de Futuyma et al. (2017)\nSección 6.4 de Allman et al. (2004)\nSecciones 3.3, 4.3 y 5.2.2 de Otto y Troy (2007)\nNachman et al. (2003)\nCapítulo 32 de Donovan y Welden (2002)\n\n\n\n\n\nAllman, Elizabeth S, y John A Rhodes. 2004. Mathematical Models in Biology: An Introduction. Cambridge: Cambridge Univ. Press.\n\n\nDonovan, Therese Marie, y Charles Woodson Welden. 2002. Spreadsheet Exercises in Ecology and Evolution. Sunderland, Massachusetts: Sinauer.\n\n\nFutuyma, Douglas J., y Mark Kirkpatrick. 2017. Evolution. Fourth edition. Sunderland, Massachusetts: Sinauer Associates, Inc., Publishers.\n\n\nNachman, Michael W., Hopi E. Hoekstra, y Susan L. D’Agostino. 2003. «The Genetic Basis of Adaptive Melanism in Pocket Mice». Proceedings of the National Academy of Sciences 100 (9): 5268-73. https://doi.org/10.1073/pnas.0431157100.\n\n\nOtto, Sarah P., y Troy Day. 2007. A Biologist’s Guide to Mathematical Modeling in Ecology and Evolution. Princeton: Princeton University Press.",
+    "crumbs": [
+      "Módulo 5",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modelo de selección diploide</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Referencias",
+    "section": "",
+    "text": "Allman, Elizabeth S, and John A Rhodes. 2004. Mathematical\nModels in Biology: An\nIntroduction. Cambridge: Cambridge Univ. Press.\n\n\nCase, Ted J. 2000. An Illustrated Guide to Theoretical Ecology.\nNew York ; Oxford: Oxford University Press.\n\n\nDonovan, Therese Marie, and Charles Woodson Welden. 2002.\nSpreadsheet Exercises in Ecology and Evolution. Sunderland,\nMassachusetts: Sinauer.\n\n\nFutuyma, Douglas J., and Mark Kirkpatrick. 2017. Evolution.\nFourth edition. Sunderland, Massachusetts: Sinauer Associates, Inc.,\nPublishers.\n\n\nNachman, Michael W., Hopi E. Hoekstra, and Susan L. D’Agostino. 2003.\n“The Genetic Basis of Adaptive Melanism in Pocket Mice.”\nProceedings of the National Academy of Sciences 100 (9):\n5268–73. https://doi.org/10.1073/pnas.0431157100.\n\n\nOtto, Sarah P., and Troy Day. 2007. A Biologist’s Guide to\nMathematical Modeling in Ecology and Evolution. Princeton:\nPrinceton University Press.\n\n\nUrry, Lisa A., Michael L. Cain, Steven Alexander Wasserman, Peter V.\nMinorsky, Rebecca B. Orr, and Neil A. Campbell. 2021. Campbell\nBiology. Twelfth edition. New York, NY: Pearson.",
+    "crumbs": [
+      "Referencias"
+    ]
+  },
+  {
     "objectID": "tema_05/tema_05.html",
     "href": "tema_05/tema_05.html",
     "title": "Módulo 5",
     "section": "",
-    "text": "En este módulo iniciamos nuestro estudio de los sistemas dinámicos, es decir sistemas que cambian con el tiempo.\nEn particular se discuten dos de los modelos más funamentales en la ecología: el modelo exponencial y el modelo logístico. Posteriormente se discuten algunos de los modelos más básicos en evolución: el modelo de fecuencia alélica de Hardy-Weinberg y el modelo de selección haploide.",
+    "text": "En este módulo iniciamos nuestro estudio de los sistemas dinámicos, es decir sistemas que cambian con el tiempo.\nEn particular se discuten dos de los modelos más funamentales en la ecología: el modelo exponencial y el modelo logístico. Posteriormente se discuten algunos de los modelos más básicos en evolución: el modelo de fecuencia alélica de Hardy-Weinberg y el modelo de selección diploide.",
     "crumbs": [
       "Módulo 5"
     ]

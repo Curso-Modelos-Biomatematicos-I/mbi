@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,6 +50,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../tema_05/modelo_de_seleccion.html" rel="next">
 <link href="../tema_05/modelo_logistico.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -138,8 +159,20 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Principio de Hardy-Weinberg y deriva génica</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tema_05/modelo_de_seleccion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Modelo de selección diploide</span></span></a>
+  </div>
+</li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referencias</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -157,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#exploración-de-la-simulación" id="toc-exploración-de-la-simulación" class="nav-link" data-scroll-target="#exploración-de-la-simulación">Exploración de la simulación</a></li>
   <li><a href="#desarrollo-del-modelo" id="toc-desarrollo-del-modelo" class="nav-link" data-scroll-target="#desarrollo-del-modelo">Desarrollo del modelo</a></li>
   <li><a href="#demostración-de-principio-de-hardy-weinberg" id="toc-demostración-de-principio-de-hardy-weinberg" class="nav-link" data-scroll-target="#demostración-de-principio-de-hardy-weinberg">Demostración de principio de Hardy-Weinberg</a></li>
-  <li><a href="#construcción-de-gráfica" id="toc-construcción-de-gráfica" class="nav-link" data-scroll-target="#construcción-de-gráfica">Construcción de gráfica</a></li>
+  <li><a href="#práctica-construcción-de-gráfica" id="toc-práctica-construcción-de-gráfica" class="nav-link" data-scroll-target="#práctica-construcción-de-gráfica">Práctica: Construcción de gráfica</a></li>
   </ul></li>
   <li><a href="#deriva-génica" id="toc-deriva-génica" class="nav-link" data-scroll-target="#deriva-génica">Deriva génica</a>
   <ul class="collapse">
@@ -165,6 +198,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#deriva-génica-y-sus-propiedades" id="toc-deriva-génica-y-sus-propiedades" class="nav-link" data-scroll-target="#deriva-génica-y-sus-propiedades">Deriva génica y sus propiedades</a></li>
   <li><a href="#efecto-fundador-y-efecto-de-cuello-de-botella" id="toc-efecto-fundador-y-efecto-de-cuello-de-botella" class="nav-link" data-scroll-target="#efecto-fundador-y-efecto-de-cuello-de-botella">Efecto fundador y efecto de cuello de botella</a></li>
   </ul></li>
+  <li><a href="#lecturas-sugeridas" id="toc-lecturas-sugeridas" class="nav-link" data-scroll-target="#lecturas-sugeridas">Lecturas sugeridas</a></li>
   </ul>
 </nav>
     </div>
@@ -238,8 +272,8 @@ Explora la simulación del principio de Hardy-Weinberg
 <h3 class="anchored" data-anchor-id="demostración-de-principio-de-hardy-weinberg">Demostración de principio de Hardy-Weinberg</h3>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/prSZYjM_Z24" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="construcción-de-gráfica" class="level3">
-<h3 class="anchored" data-anchor-id="construcción-de-gráfica">Construcción de gráfica</h3>
+<section id="práctica-construcción-de-gráfica" class="level3">
+<h3 class="anchored" data-anchor-id="práctica-construcción-de-gráfica">Práctica: Construcción de gráfica</h3>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -270,9 +304,29 @@ Tip
 <h3 class="anchored" data-anchor-id="efecto-fundador-y-efecto-de-cuello-de-botella">Efecto fundador y efecto de cuello de botella</h3>
 <p>La «reproducción aleatoria» que subyace a la deriva génica no significa que uno no pueda conocer los mecanismos que producen la deriva génica. Hay distintos procesos que pueden favorecer que opere la deriva génica en una población. Dos de ellos son el <strong>efecto fundador</strong> y el <strong>efecto de cuello de botella</strong>. Estos se caracterizan por generar condiciones donde las poblaciones son muy pequeñas favoreciendo así que la deriva génica sea más fuerte y tenga efectos significativos sobre las frecuencias alélicas de una población. A continuación se presentan un par de ejemplos de estos procesos:</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wzIXweZ7pyE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-
-
 </section>
+</section>
+<section id="lecturas-sugeridas" class="level2">
+<h2 class="anchored" data-anchor-id="lecturas-sugeridas">Lecturas sugeridas</h2>
+<p>Para aprender más puedes consultar:</p>
+<ul>
+<li>Capítulo 29 de Donovan y Welden <span class="citation" data-cites="donovan2002">(<a href="../references.html#ref-donovan2002" role="doc-biblioref">2002</a>)</span></li>
+<li>Sección 6.4 de Allman <em>et al.</em> <span class="citation" data-cites="allman2004">(<a href="../references.html#ref-allman2004" role="doc-biblioref">2004</a>)</span></li>
+<li>Capítulo 23 de Urry <em>et al.</em> <span class="citation" data-cites="urry2021">(<a href="../references.html#ref-urry2021" role="doc-biblioref">2021</a>)</span></li>
+</ul>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-allman2004" class="csl-entry" role="listitem">
+Allman, Elizabeth S, y John A Rhodes. 2004. <em>Mathematical <span>Models</span> in <span>Biology</span>: <span>An Introduction</span></em>. Cambridge: Cambridge Univ. Press.
+</div>
+<div id="ref-donovan2002" class="csl-entry" role="listitem">
+Donovan, Therese Marie, y Charles Woodson Welden. 2002. <em>Spreadsheet Exercises in Ecology and Evolution</em>. Sunderland, Massachusetts: Sinauer.
+</div>
+<div id="ref-urry2021" class="csl-entry" role="listitem">
+Urry, Lisa A., Michael L. Cain, Steven Alexander Wasserman, Peter V. Minorsky, Rebecca B. Orr, y Neil A. Campbell. 2021. <em>Campbell Biology</em>. Twelfth edition. New York, NY: Pearson.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -703,6 +757,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../tema_05/modelo_de_seleccion.html" class="pagination-link" aria-label="Modelo de selección diploide">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Modelo de selección diploide</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
