@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Análisis gráfico</title>
+
+        <script type="text/javascript" charset="UTF-8" src="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css" />
+        <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script"></script>
+        <!-- <script defer src="script.js"></script> -->
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+        <style>
+            #box{
+    width: 500px;
+    height: 500px;
+}
+        </style>
+    </head>
+    <body>
+        <div id="box" class="jxgbox"></div>
+    </body>
+    <script>
+        let box = document.querySelector('#box');
+
+let board = JXG.JSXGraph.initBoard(box,
+    {
+        boundingbox: [-0.15, 1.1, 1.1, -0.15], 
+        axis: true,
+        showCopyright: false,
+        showNavigation: false,
+        defaultAxes: {
+            x: {
+                name: 'p_t',
+                withLabel: true, 
+                label: {
+                    position: 'rt',
+                    offset: [-10, -30],
+                    fontSize: 18
+                }
+            },
+            y: {
+                name: 'p_{t+1}',
+                withLabel: true,
+                label: {
+                    position: 'rt',
+                    offset: [-50, 0],
+                    fontSize: 18
+                }
+            }
+        }
+    }
+);
+
+let wAA = board.create('slider', 
+    [[0.1, 1],[0.5, 1], [0.01,0.8,1]], {
+    name: 'w_{AA}'
+});
+
+let wAa = board.create('slider', 
+    [[0.1, 0.93],[0.5, 0.93], [0.01,0.8,1]], {
+    name: 'w_{Aa}'
+});
+
+let waa = board.create('slider', 
+    [[0.1, 0.86],[0.5, 0.86], [0.01,1,1]], {
+    name: 'w_{aa}'
+});
+
+
+function p1(p){
+    return ((wAA.Value() * p**2) + (wAa.Value() * p * (1-p))) / 
+    ((wAA.Value() * p**2) + (wAa.Value() * 2 * p * (1-p)) + (waa.Value() * (1-p)**2))
+}
+
+let graph = board.create('functiongraph',
+    [p1, 0, 1], 
+    {
+        strokeWidth: 2,
+        strokeColor: 'red'
+    }
+)
+
+let identity = board.create('functiongraph', 
+    [x => x, 0, 1],
+    {
+        opacity: 0.4,
+        strokeWidth: 1.5,
+        strokeColor: 'black'
+    }
+)
+
+
+let p0 = board.create('slider', 
+    [[0.1, 0.79],[0.5, 0.79], [0.0,0.5,1]], {
+    name: 'p_0'
+});
+
+
+punto0 = board.create('point', [() => p0.Value(), 0], {name: 'p_0'})
+
+punto1 = board.create('point', [() => p0.Value(), ()=> p1(p0.Value())], {visible: false})
+board.create('segment', [punto0, punto1])
+let puntos = [punto1]
+
+for(let i = 1; i < 800; i++){
+    let puntoPrevio = puntos[i-1];
+    let punto = board.create('point', 
+        [() => puntoPrevio.Y(), ()=> p1(puntoPrevio.X())],
+    {
+        visible: false
+    })
+    board.create('segment', [puntoPrevio, punto])
+    puntos.push(punto)
+}
+
+
+board.create('text', [0.1, 1.07, () => `p_{t+1} = (${wAA.Value().toFixed(2)}p_t^2 + ${wAa.Value().toFixed(2)} p_t q_t) / (${wAA.Value().toFixed(2)}p_t^2 + ${wAa.Value().toFixed(2)} (2 p_t q_t) + ${waa.Value().toFixed(2)}q_t^2)` ])
+
+    </script>
+</html>

@@ -60,6 +60,12 @@ Se recomienda que realices esta práctica a la par que ves el video.
 
 {{<video https://youtu.be/ViMfBDUbu_c>}}
 
+Aquí abajo puedes utilizar la aplicación que se usa en el video para explorar el modelo gráficamente:
+
+```{=html}
+<iframe src="../sims/analisis_grafico_modelo_seleccion/index.html" width="100%" height="530px"></iframe>
+```
+
 ## Ejemplos de selección positiva, sobredominancia y subdominancia
 
 {{<video https://youtu.be/1FRyra9Jz3c>}}
