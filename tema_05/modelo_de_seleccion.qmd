@@ -1,0 +1,79 @@
+# Modelo de selección diploide
+
+::: {.callout-note appearance="minimal"} 
+**Contenido**: 9 videos  
+**Duración estimada**: 1 hora 43 minutos
+:::
+
+## Introducción
+
+En el [capítulo anterior](./modelo_de_hardy_weinberg) discutimos el principio o equilibrio de Hardy-Weinberg, el cual describe cómo se ve una población en la que no opera ninguna fuerza evolutiva y por lo tanto que no evoluciona. En este capítulo extendemos el modelo para integrar una de las principales fuerzas evolutivas: la selección natural.
+
+Primero repasamos qué es la selección natural y los elementos que requiere. Posteriormente vemos un ejemplo real de evolución por selección natural y luego pasamos a explorar ese ejemplo en una simulación computacional. A continuación desarrollamos el modelo matemáticamente y pasamos a explorar la dinámica que describe usando hojas de cálculo. Finalmente aplicamos el análisis gráfico para identificar los comportamientos que el modelo predice. 
+
+## Selección natural
+
+{{<video https://youtu.be/U2PVZ4NkNy4>}}
+
+## La selección y adaptación de los ratones de bolsillo
+
+En el siguiente video se muestra un ejemplo muy estudiado y bien documentado de evolución y adaptación por selección natural de los ratónes de bolsillo en el desierto de Nuevo México. La simulación computacional que vamos a explorar en los siguientes videos está basado en este ejemplo.
+
+::: {.callout-tip}
+El video está en inglés pero puedes agregarle subtítulos en español.
+:::
+
+{{<video https://youtu.be/sjeSEngKGrg?si=LgqLlL1DkJ3OJck9>}}
+
+## Exploración de modelo computacional
+
+{{<video https://youtu.be/3yfEEEd6z4M>}}
+
+::: {.callout-note}
+# Explora la simulación del modelo de selección
+
+Aquí puedes [abrir el simulador del modelo de selección en tu navegador web](../sims/modelo_seleccion/modelo_de_seleccion.html). Nota que en la versión web no se ve la animación de los depredadores, sin embargo, la selección sí ocurre (puedes notar cómo el tamaño poblacional disminuye).
+
+Para ejecutarlo en tu computadora localmente puedes [descargar NetLogo](https://ccl.northwestern.edu/netlogo/6.4.0/) y 
+<a href="https://curso-modelos-biomatematicos-i.github.io/mbi/sims/modelo_seleccion/modelo_de_seleccion.nlogo" download>descargar el archivo del modelo</a>.
+:::
+
+## Desarrollo de modelo de selección
+
+{{<video https://youtu.be/dsZDbZIQrSw>}}
+
+## Práctica: Simulación con hojas de cálculo
+
+::: {.callout-tip}
+Se recomienda que realices esta práctica a la par que ves el video. 
+:::
+
+{{<video https://youtu.be/bMEfdLzyi_g>}}
+
+## Análisis gráfico del modelo 
+
+### Parte 1
+
+{{<video https://youtu.be/1LBQWIPKWho>}}
+
+### Parte 2
+
+{{<video https://youtu.be/ViMfBDUbu_c>}}
+
+## Ejemplos de selección positiva, sobredominancia y subdominancia
+
+{{<video https://youtu.be/1FRyra9Jz3c>}}
+
+## Velocidad de selección
+
+{{<video https://youtu.be/Je12nIP_oWA>}}
+
+## Lecturas sugeridas
+
+Para aprender más puedes consultar:
+
+- Capítulo 5 de Futuyma *et al.* [-@futuyma2017]
+- Sección 6.4 de Allman *et al.* [-@allman2004]
+- Secciones 3.3, 4.3 y 5.2.2 de Otto y Troy [-@otto2007]
+- Nachman *et al.* [-@nachman2003]
+- Capítulo 32 de Donovan y Welden [-@donovan2002]

@@ -38,7 +38,7 @@ Para ejecutarlo en tu computadora localmente puedes [descargar NetLogo](https://
 
 {{<video https://youtu.be/prSZYjM_Z24>}}
 
-### Construcción de gráfica
+### Práctica: Construcción de gráfica
 
 ::: {.callout-tip}
 Se recomienda que realices esta práctica a la par que ves el video. 
